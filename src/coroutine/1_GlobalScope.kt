@@ -7,7 +7,10 @@ import kotlinx.coroutines.runBlocking
 
 /**
  * Here we are launching a new coroutine in the GlobalScope, meaning that the lifetime of the new coroutine is limited only by the lifetime of the whole application.
- * The code in GlobalScope has the same life time with the application (main function)
+ * The code in GlobalScope has the same life time with the application (ma
+ *
+ *
+ * in function)
  */
 private fun GB_Launch() {
     /**
